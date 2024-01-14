@@ -1,0 +1,15 @@
+E:\projects\BaccahTask\BaccahTask\bin\Debug\net6.0\BaccahTask.exe
+E:\projects\BaccahTask\BaccahTask\bin\Debug\net6.0\BaccahTask.deps.json
+E:\projects\BaccahTask\BaccahTask\bin\Debug\net6.0\BaccahTask.runtimeconfig.json
+E:\projects\BaccahTask\BaccahTask\bin\Debug\net6.0\BaccahTask.dll
+E:\projects\BaccahTask\BaccahTask\bin\Debug\net6.0\BaccahTask.pdb
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.csproj.AssemblyReference.cache
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.GeneratedMSBuildEditorConfig.editorconfig
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.AssemblyInfoInputs.cache
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.AssemblyInfo.cs
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.csproj.CoreCompileInputs.cache
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.dll
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\refint\BaccahTask.dll
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.pdb
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\BaccahTask.genruntimeconfig.cache
+E:\projects\BaccahTask\BaccahTask\obj\Debug\net6.0\ref\BaccahTask.dll
