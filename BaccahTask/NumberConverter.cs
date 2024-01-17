@@ -48,15 +48,15 @@ namespace BaccahTask
 		{ 0, "" }, { 1, "One Hundred" }, { 2, "Two Hundred" }, { 3, "Three Hundred" }, { 4, "Four Hundred" }, { 5, "Five Hundred" }, { 6, "Six Hundred" }, { 7, "Seven Hundred" }, { 8, "Eight Hundred" }, { 9, "Nine Hundred" }
 	};
 
-		public static string ConvertToText(int number, bool isArabic)
+		private static string ConvertToText(int number, bool isArabic)
 		{
 			if (isArabic)
 			{
-				return ConvertToText(true , number, ArabicUnits, ArabicTeen, ArabicTens, ArabicHundreds);
+				return ConvertToText(isArabic , number, ArabicUnits, ArabicTeen, ArabicTens, ArabicHundreds);
 			}
 			else
 			{
-				return ConvertToText(false , number, EnglishUnits, EnglishTeen, EnglishTens, EnglishHundreds);
+				return ConvertToText(isArabic , number, EnglishUnits, EnglishTeen, EnglishTens, EnglishHundreds);
 			}
 		}
 
@@ -86,18 +86,18 @@ namespace BaccahTask
 			if (number >= 1000000)
 			{
 				if (isArabic)
-					text += $"{ConvertToText(true, number / 1000000, units, teen, tens, hundreds)} مليون و ";
+					text += $"{ConvertToText(isArabic, number / 1000000, units, teen, tens, hundreds)} مليون و ";
 				else
-					text += $"{ConvertToText(false, number / 1000000, units, teen, tens, hundreds)} Million ";
+					text += $"{ConvertToText(isArabic, number / 1000000, units, teen, tens, hundreds)} Million ";
 				number %= 1000000;
 			}
 
 			if (number >= 1000)
 			{
 				if (isArabic)
-					text += $"{ConvertToText(true, number / 1000, units, teen, tens, hundreds)} الف و ";
+					text += $"{ConvertToText(isArabic, number / 1000, units, teen, tens, hundreds)} الف و ";
 				else
-					text += $"{ConvertToText(false, number / 1000, units, teen, tens, hundreds)} Thousand ";
+					text += $"{ConvertToText(isArabic, number / 1000, units, teen, tens, hundreds)} Thousand ";
 				number %= 1000;
 			}
 
